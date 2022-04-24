@@ -1,16 +1,18 @@
-#  WHMCS TigoPesa
+# WHMCS TigoPesa
   WHMCS TigoPesa Payment  API
   
-#Setting Procedures for WHMCS TigoPesa Payment Gateway:
+# Settings and Installation Procedures for WHMCS TigoPesa Payment Gateway
 
-Please follow the instructions below to setup the whmcs-tigopesa gateway module.
 
-Download zipped file, Upload & Extract whmcs-tigopesa folder to your whmcs's modules/gateways folder.
+Download the zip file, Upload & Extract it to your whmcs's modules/gateways folder.
+Ensure the "tigopesa.php" is in modules/gateways folder, tigopesa folder is in modules/gateways folder too and the "tigopesa.php" from the callback folder is put into the whmcs's modules/gateways/callback folder.
 
-Enable the whmcs-tigopesa module in the WHMCS admin area by going to Setup->Payments->Payment Gateways->TigoPesa Payment and paste in your API Key, Secrete Key, Merchant MSISDN, Merchant PIN, Account ID, Generate AccessToken url, Make Payment URL and Validate MFS URL.
+Enable the whmcs-tigopesa module in the WHMCS admin area by going to Settings-> Apps & Integrations ->Payments-> Payments Apps->TigoPesa and paste in your API Key, Secrete Key, Merchant MSISDN, Merchant PIN, Account ID, AccessToken URL, Payment URL and Validate MFS URL.
 
 To get your PIN, Secret Key, API Key, Access Token URL, Validate MFS URL, Payment URL and , Contact with Tigopesa Tech Support.
 
-Save configurations.
+Save your settings.
 
-Note:// Please, do not change display name in the configuration part.
+Note:// Merchant MSISDN and Account ID are all identical.
+
+
