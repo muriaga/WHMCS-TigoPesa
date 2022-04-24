@@ -16,6 +16,8 @@ To get your PIN, Secret Key, API Key, Access Token URL, Validate MFS URL, Paymen
 
 Save your settings.
 
+Contact with Tigopesa Tech Support for User Acceptance Testing (UAT) as the final part to enable your Account to be live from the sandbox testing.
+
 Note:// Merchant MSISDN and Account ID are all identical.
 
 
