@@ -18,6 +18,6 @@ Save your settings.
 
 Contact Tigopesa Tech Support for User Acceptance Testing (UAT) as the final part to enable your Account to be live online for use from the sandbox testing in their server.
 
-Note:// Merchant MSISDN and Account ID are all identical.
+Note: Merchant MSISDN and Account ID are all identical.
 
 
