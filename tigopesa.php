@@ -1,7 +1,5 @@
 <?php
-    // * Author:  Medson Naftali | Technology Homesite
-    // * Email:   medsonnaftal@gmail.com
-    // * Website: http://technologyhomesite.com
+   
 
     if (!defined("WHMCS")) {
         die("This file cannot be accessed directly");

@@ -1,7 +1,5 @@
 <?php
-    // * Author:  Medson Naftali | Technology Homesite
-    // * Email:   medsonnaftal@gmail.com
-    // * Website: http://technologyhomesite.com
+
     
     // Require libraries needed for gateway module functions.
     use WHMCS\Database\Capsule;

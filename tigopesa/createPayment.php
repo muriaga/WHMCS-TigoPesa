@@ -1,7 +1,5 @@
 <?php
-    // * Author:  Medson Naftali | Technology Homesite
-    // * Email:   medsonnaftal@gmail.com
-    // * Website: http://technologyhomesite.com
+
 
     require("../../../init.php");
     include("../../../includes/gatewayfunctions.php");
