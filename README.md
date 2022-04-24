@@ -1,6 +1,8 @@
 #  WHMCS TigoPesa
   WHMCS TigoPesa Payment  API
+  
 #Setting Procedures for WHMCS TigoPesa Payment Gateway:
+
 Please follow the instructions below to setup the whmcs-tigopesa gateway module.
 
 Download zipped file, Upload & Extract whmcs-tigopesa folder to your whmcs's modules/gateways folder.
