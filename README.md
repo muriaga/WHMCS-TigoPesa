@@ -4,7 +4,7 @@
 # Settings and Installation Procedures
 
 
-Download the zip file, Upload & Extract it to your whmcs's modules/gateways folder.
+Download the zip file, Upload and unzip it to your WHMCS's modules/gateways folder.
 
 Ensure the "tigopesa.php" file fromthe zip is in modules/gateways folder, the "tigopesa folder" is in modules/gateways folder too and the "tigopesa.php" file from the callback folder is put into the whmcs's modules/gateways/callback folder.
 
