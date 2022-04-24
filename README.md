@@ -1,5 +1,5 @@
 # WHMCS TigoPesa
-  WHMCS TigoPesa Payment  API
+  WHMCS TigoPesa Payment Gateway API
   
 # Settings and Installation Procedures for WHMCS TigoPesa Payment Gateway
 
