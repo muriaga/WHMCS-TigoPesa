@@ -5,15 +5,25 @@
   "license": "proprietary",
   "category": "payments",
   "description": {
-    "name": " TigoPesa Payments",
-    "tagline": "WHMCS TigoPesa Payment Gateway Merchant Solution In Tanzania."
+    "name": "TigoPesa Payments",
+    "tagline": "WHMCS TigoPesa Payment Gateway Merchant Solution.",
+    "long": "TigoPesa is the fast, easy, secure way to accept mobile payments and mobile online. Lipa Na TIGO-PESA empowers any business across the country to receive and also make payments from the convenience of a mobile phone.",
+    "features": [
+      "Automatic Mobile Online Payments",
+      "Automated  Merchant Payment Receipt Processing",
+      "Integrates with WHMCS for TigoPesa Payments Gateway"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
   },
   "support": {
+    "homepage": "https:\/\/www.whmcs.com\/",
     "docs_url": "https:\/\/docs.whmcs.com\/tigopesa"
   },
   "authors": [
     {
-      "name": "Emmanuel",
+      "name": "Emmanuel B. Muriaga",
       "homepage": "https:\/\/www.whmcs.com\/"
     }
   ]
