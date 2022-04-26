@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="my-2">
-                    <p>Please keep your phone in hand. Once you click "Pay" a request to comfirm your PIN sent to your phone.</p>
+                    <p>Please keep your phone in hand. Once you click "Pay" a request to comfirm your PIN is sent to your phone.</p>
                 </div>
             </form>
             
