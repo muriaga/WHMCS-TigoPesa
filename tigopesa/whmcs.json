@@ -7,7 +7,7 @@
   "description": {
     "name": "TigoPesa Payments",
     "tagline": "WHMCS TigoPesa Payment Gateway Merchant Solution.",
-    "long": "TigoPesa is the fast, easy, secure way to accept mobile payments and mobile online. Lipa Na TIGO-PESA empowers any business across the country to receive and also make payments from the convenience of a mobile phone. \n\n## Apply for an account \n[Learn more and apply &raquo;](https://www.tigo.co.tz/tigo-pesa.com)",
+    "long": "TigoPesa is the fast, easy, secure way to accept mobile payments and mobile online. Lipa Na TIGO-PESA empowers any business across the country to receive and also make payments from the convenience of a mobile phone. \n\n## Apply for Tigo Pesa API \n[Learn more and apply &raquo;](https://www.tigo.co.tz/tigo-pesa-for-developers)",
     "features": [
       "Automatic Mobile Online Payments",
       "Automated  Merchant Payment Receipt Processing",
@@ -20,12 +20,17 @@
   "support": {
     "homepage": "https:\/\/www.whmcs.com\/",
     "docs_url": "https:\/\/docs.whmcs.com\/tigopesa",
+	"email": "emmanuelmuriaga@gmail.com",
     "learn_more": "https:\/\/github.com\/muriaga\/WHMCS-TigoPesa"
+
   },
   "authors": [
     {
       "name": "Emmanuel B. Muriaga",
-      "homepage": "https:\/\/www.whmcs.com\/"
+	  "email": "emmanuelmuriaga@gmail.com",
+      "homepage": "https:\/\/www.whmcs.com\/",
+	  "role": "Developer"
     }
   ]
 }
+
