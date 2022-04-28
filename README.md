@@ -19,12 +19,12 @@
 
 * Save your settings.
 
-When you are done testing the Tigo Pesa API code integration on sandbox environment, you will need to contact Tigo Pesa to GO live. 
+* When you are done testing the Tigo Pesa API code integration on sandbox environment, you will need to contact Tigo Pesa to GO live. 
 
 
-Contact Tigopesa Tech Support at mfs.corporate@tigo.co.tz for User Acceptance Testing (UAT) as the final part to enable your Account to be live online for use from the sandbox testing in their server.
+* Contact Tigopesa Tech Support at mfs.corporate@tigo.co.tz for User Acceptance Testing (UAT) as the final part to enable your Account to be live online for use from the sandbox testing in their server.
 
-When approved to GO LIVE, you will receive Live credentials which you can replace in your code to have your Tigo Pesa API code accept Live transactions.
+* When approved to GO LIVE, you will receive Live credentials which you can replace in your code to have your Tigo Pesa API code accept Live transactions.
 
 Note: Merchant MSISDN and Account ID are all identical.
 
