@@ -49,7 +49,7 @@ The recommended structure of a merchant gateway module is as follows.
 For the latest WHMCS minimum system requirements, please refer to
 https://docs.whmcs.com/System_Requirements
 
-We recommend your module follows the same minimum requirements wherever
+It's recommend a module to follow the same minimum requirements wherever
 possible.
 
 ## Useful Resources
