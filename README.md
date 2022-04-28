@@ -53,10 +53,3 @@ https://docs.whmcs.com/System_Requirements
 * [Hook Documentation](https://developers.whmcs.com/hooks/)
 * [API Documentation](https://developers.whmcs.com/api/)
 
-
-
-
-
-
-
-
