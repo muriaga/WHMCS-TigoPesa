@@ -38,7 +38,15 @@ The recommended structure of the Tigopesa merchant gateway module is as follows.
 ```s
  modules/gateways/
   |- callback/tigopesa.php
+  
   |  tigopesa
+  |          /templates/tigopesa_callback.tpl
+  |          /templates/tigopesa_payment.tpl
+  |          /logo.png
+  |          /createPayment.php
+  |          /processPayment.php
+  |          /whmcs.json
+
   |  tigopesa.php
 ```
 
