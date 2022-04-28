@@ -31,9 +31,9 @@ Note: Merchant MSISDN and Account ID are all identical.
 For more information, please refer to the documentation at:
 https://developers.whmcs.com/payment-gateways
 
-## Recommended Module Content ##
+## Module Contents ##
 
-The recommended structure of the Tigopesa merchant gateway module is as follows.
+The structure of the Tigopesa merchant gateway module is as follows.
 
 ```s
  modules/gateways/
@@ -49,7 +49,7 @@ The recommended structure of the Tigopesa merchant gateway module is as follows.
   |  tigopesa.php
 ```
 
-## Minimum Requirements ##
+## Requirements ##
 
 For the latest WHMCS minimum system requirements, please refer to
 https://docs.whmcs.com/System_Requirements
