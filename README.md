@@ -1,7 +1,7 @@
-# WHMCS TigoPesa Payment Gateway#
+# WHMCS TigoPesa Payment Gateway
   WHMCS TigoPesa Payment Gateway API Integration (Tigo Tanzania)
   
-## Settings and Installation Procedures##
+## Settings and Installation Procedures
 
 Payment Gateway to allow you to integrate payment solutions with the WHMCS platform.
 
