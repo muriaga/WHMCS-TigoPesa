@@ -38,7 +38,7 @@ The recommended structure of the Tigopesa merchant gateway module is as follows.
 ```s
  modules/gateways/
   |- callback/tigopesa.php
-  |  tigopesa folder
+  |  tigopesa
   |  tigopesa.php
 ```
 
