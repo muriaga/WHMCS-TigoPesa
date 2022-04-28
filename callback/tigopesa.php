@@ -1,6 +1,5 @@
 <?php
 
-    
     // Require libraries needed for gateway module functions.
     use WHMCS\Database\Capsule;
     require_once __DIR__ . '/../../../init.php';
