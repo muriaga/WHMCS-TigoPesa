@@ -5,7 +5,7 @@
   
 ## Settings and Installation Procedures
 
-
+Gateway Module Integration Procedures:
 
 * Download the zip file, Upload and unzip it to your WHMCS's modules/gateways folder.
 
