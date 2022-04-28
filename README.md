@@ -1,8 +1,9 @@
-# WHMCS TigoPesa Payment Gateway
-  WHMCS TigoPesa Payment Gateway API Integration
+# WHMCS TigoPesa Payment Gateway#
+  WHMCS TigoPesa Payment Gateway API Integration (Tigo Tanzania)
   
-# Settings and Installation Procedures
+## Settings and Installation Procedures##
 
+Payment Gateway to allow you to integrate payment solutions with the WHMCS platform.
 
 Download the zip file, Upload and unzip it to your WHMCS's modules/gateways folder.
 
@@ -16,8 +17,48 @@ To get your PIN, Secret Key, API Key, Access Token URL, Validate MFS URL, Paymen
 
 Save your settings.
 
+When you are done testing the Tigo Pesa API code integration on sandbox environment, you will need to contact Tigo Pesa to GO live. 
+
+Use this email to contact Tigo Pesa asking to go live: mfs.corporate@tigo.co.tz 
+
+
 Contact Tigopesa Tech Support for User Acceptance Testing (UAT) as the final part to enable your Account to be live online for use from the sandbox testing in their server.
 
+When approved to GO LIVE, you will receive Live credentials which you can replace in your code to have your Tigo Pesa API code accept Live transactions.
+
 Note: Merchant MSISDN and Account ID are all identical.
+
+For more information, please refer to the documentation at:
+https://developers.whmcs.com/payment-gateways/
+
+## Recommended Module Content ##
+
+The recommended structure of a merchant gateway module is as follows.
+
+```s
+ modules/gateways/
+  |- callback/tigopesa.php
+  |  tigopesa folder
+  |  tigopesa.php
+```
+
+## Minimum Requirements ##
+
+For the latest WHMCS minimum system requirements, please refer to
+https://docs.whmcs.com/System_Requirements
+
+We recommend your module follows the same minimum requirements wherever
+possible.
+
+## Useful Resources
+* [Developer Resources](https://developers.whmcs.com/)
+* [Hook Documentation](https://developers.whmcs.com/hooks/)
+* [API Documentation](https://developers.whmcs.com/api/)
+
+
+
+
+
+
 
 
