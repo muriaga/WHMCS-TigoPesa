@@ -29,7 +29,7 @@ Gateway Module Integration Procedures:
 Note: Merchant MSISDN and Account ID are all identical.
 
 For more information, please refer to the documentation at:
-https://developers.whmcs.com/payment-gateways/
+https://developers.whmcs.com/payment-gateways
 
 ## Recommended Module Content ##
 
@@ -56,9 +56,9 @@ https://docs.whmcs.com/System_Requirements
 
 
 ## Useful Resources
-* [Developer Resources](https://developers.whmcs.com/)
-* [Hook Documentation](https://developers.whmcs.com/hooks/)
-* [API Documentation](https://developers.whmcs.com/api/)
+* [Developer Resources](https://developers.whmcs.com)
+* [Hook Documentation](https://developers.whmcs.com/hooks)
+* [API Documentation](https://developers.whmcs.com/api)
 
 
 
