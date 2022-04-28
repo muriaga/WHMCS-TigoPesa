@@ -19,9 +19,9 @@
   },
   "support": {
     "homepage": "https:\/\/www.whmcs.com\/",
-    "docs_url": "https:\/\/docs.whmcs.com\/tigopesa",
+    "docs_url": "https:\/\/github.com\/muriaga\/WHMCS-TigoPesa",
 	"email": "emmanuelmuriaga@gmail.com",
-    "learn_more": "https:\/\/github.com\/muriaga\/WHMCS-TigoPesa"
+    "learn_more": "https:\/\/docs.whmcs.com\/tigopesa"
 
   },
   "authors": [
