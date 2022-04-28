@@ -35,7 +35,7 @@ https://developers.whmcs.com/payment-gateways/
 
 ## Recommended Module Content ##
 
-The recommended structure of a merchant gateway module is as follows.
+The recommended structure of the Tigopesa merchant gateway module is as follows.
 
 ```s
  modules/gateways/
@@ -49,8 +49,6 @@ The recommended structure of a merchant gateway module is as follows.
 For the latest WHMCS minimum system requirements, please refer to
 https://docs.whmcs.com/System_Requirements
 
-It's recommend a module to follow the same minimum requirements wherever
-possible.
 
 ## Useful Resources
 * [Developer Resources](https://developers.whmcs.com/)
