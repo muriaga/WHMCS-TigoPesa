@@ -67,6 +67,3 @@ For the latest WHMCS minimum system requirements, please refer to [WHMCS System 
 * [Developer Resources](https://developers.whmcs.com)
 * [Hook Documentation](https://developers.whmcs.com/hooks)
 * [API Documentation](https://developers.whmcs.com/api)
-
-
-
