@@ -61,10 +61,6 @@ The structure of the Tigopesa merchant gateway module is as follows.
 ```
 
 
-## License
-[![GNU-GPL-3](https://img.shields.io/github/license/wallace-stev/epush-selcom-wp)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-
-
 ## Disclaimer & Copyrights
 Tigo and the Tigo Pesa Logo are registered trademarks of [MIC Tanzania Public Limited Company.](https://www.tigo.co.tz)
 
