@@ -29,7 +29,7 @@ Gateway Module Integration Procedures:
 Note: Merchant MSISDN and Account ID are all identical.
 
 For more information, please refer to the documentation at:
-https://developers.whmcs.com/payment-gateways
+[WHMCS Payment Gateways](https://developers.whmcs.com/payment-gateways)
 
 ## Module Contents ##
 
@@ -60,8 +60,7 @@ Tigo and the Tigo Pesa Logo are registered trademarks of [MIC Tanzania Public Li
 
 ## Requirements ##
 
-For the latest WHMCS minimum system requirements, please refer to
-https://docs.whmcs.com/System_Requirements
+For the latest WHMCS minimum system requirements, please refer to [WHMCS System Requirements](https://docs.whmcs.com/System_Requirements)
 
 
 ## Useful API Reference
