@@ -31,6 +31,26 @@ Note: Merchant MSISDN and Account ID are all identical.
 For more information, please refer to the documentation at:
 [WHMCS Payment Gateways](https://developers.whmcs.com/payment-gateways)
 
+
+
+## Motivation
+This plugin comes to provide a comprehensive solution to mobile payments integration for local e-commerce service providers as the demand increases. We found that several developers struggle when it comes to these necessary yet unmet provisions serving as tools to simplify such works.
+
+
+## Prerequisites
+Before one choses this tool for their particular project(s), it is necessary for them to have developer-level understanding of PHP (Preferrably 7.1.3 and above), WordPress, WooCommerce, and using API(s) as it may come in handy when facing problems. Also, they should contact Selcom and request for merchant account for them to get necessary information such as security tokens and others required to make this plugin work successfully.
+
+
+## Languages used
+- [PHP](https://www.php.net)
+- [Smarty](https://www.smarty.net)
+
+
+## Features
+- Send direct USSD Push notification to client's mobile
+- Simplified checkout procedure, with order status updates as payments occur
+
+
 ## Module Contents ##
 
 The structure of the Tigopesa merchant gateway module is as follows.
