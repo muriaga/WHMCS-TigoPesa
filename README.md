@@ -32,14 +32,14 @@ For more information, please refer to the documentation at:
 [WHMCS Payment Gateways](https://developers.whmcs.com/payment-gateways)
 
 
-## Languages used
-- [PHP](https://www.php.net)
-- [Smarty](https://www.smarty.net)
-
-
 ## Features
 - Send direct USSD Push notification to client's mobile
 - Simplified checkout procedure, with order status updates as payments occur
+
+
+## Languages used
+- [PHP](https://www.php.net)
+- [Smarty](https://www.smarty.net)
 
 
 ## Module Contents ##
