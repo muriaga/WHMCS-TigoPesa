@@ -49,13 +49,22 @@ The structure of the Tigopesa merchant gateway module is as follows.
   |  tigopesa.php
 ```
 
+
+## License
+[![GNU-GPL-3](https://img.shields.io/github/license/wallace-stev/epush-selcom-wp)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+
+## Disclaimer & Copyrights
+Tigo and the Tigo Pesa Logo are registered trademarks of MIC Tanzania Public Limited Company.
+
+
 ## Requirements ##
 
 For the latest WHMCS minimum system requirements, please refer to
 https://docs.whmcs.com/System_Requirements
 
 
-## Useful Resources
+## Useful API Reference
 * [Developer Resources](https://developers.whmcs.com)
 * [Hook Documentation](https://developers.whmcs.com/hooks)
 * [API Documentation](https://developers.whmcs.com/api)
