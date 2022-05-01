@@ -36,12 +36,6 @@ For more information, please refer to the documentation at:
 - Send direct USSD Push notification to client's mobile
 - Simplified checkout procedure, with order status updates as payments occur
 
-
-## Languages used
-- [PHP](https://www.php.net)
-- [Smarty](https://www.smarty.net)
-
-
 ## Module Contents ##
 
 The structure of the Tigopesa merchant gateway module is as follows.
@@ -59,6 +53,12 @@ The structure of the Tigopesa merchant gateway module is as follows.
 
   |  tigopesa.php
 ```
+
+
+## Languages used
+- [PHP](https://www.php.net)
+- [Smarty](https://www.smarty.net)
+
 
 
 ## Disclaimer & Copyrights
