@@ -33,8 +33,11 @@ For more information, please refer to the documentation at:
 
 
 ## Features
+- Automatic mobile online payments
 - Send direct USSD Push notification to client's mobile
 - Simplified checkout procedure, with order status updates as payments occur
+- Automated  Merchant Payment Receipt Processing
+- Integrates with WHMCS for TigoPesa Payments Gateway
 
 ## Module Contents ##
 
