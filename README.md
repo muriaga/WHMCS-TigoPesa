@@ -15,7 +15,7 @@ Gateway Module Integration Procedures:
 
 * Fill in your API Key, Secret Key, Merchant MSISDN, Merchant PIN, Account ID, AccessToken URL, Payment URL and Validate MFS URL.
 
-* To get your API Key, Secret Key, Merchant MSISDN, Merchant PIN, Account ID, AccessToken URL, Payment URL and Validate MFS URL, Contact with [Tigopesa Tech Support] (mailto:mfs.corporate@tigo.co.tz).
+* To get your API Key, Secret Key, Merchant MSISDN, Merchant PIN, Account ID, AccessToken URL, Payment URL and Validate MFS URL, Contact with [Tigopesa Tech Support](mailto:mfs.corporate@tigo.co.tz).
 
 * Save your settings.
 
