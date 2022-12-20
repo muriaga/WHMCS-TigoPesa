@@ -1,7 +1,7 @@
 # WHMCS TigoPesa Payment Gateway
   WHMCS TigoPesa Payment Gateway API Integration (Tigo Tanzania)
   
-  Payment Gateway to allow you to integrate payment solutions with the WHMCS platform.
+  Payment Gateway to allow you to integrate payment solutions with the WHMCS platform
   
 ## Settings and Installation Procedures
 
@@ -28,8 +28,8 @@ Gateway Module Integration Procedures:
 
 Note: Merchant MSISDN and Account ID are all identical.
 
-For more information, please refer to the documentation at:
-[WHMCS Payment Gateways](https://developers.whmcs.com/payment-gateways)
+For more information, please refer to the documentation at
+[WHMCS Payment Gateways](https://developers.whmcs.com/payment-gateways).
 
 
 ## Features
