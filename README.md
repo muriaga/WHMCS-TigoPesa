@@ -41,7 +41,7 @@ For more information, please refer to the documentation at:
 
 ## Module Contents ##
 
-The structure of the Tigopesa merchant gateway module is as follows.
+The structure of the Tigopesa merchant gateway module is as follows;
 
 ```s
  modules/gateways/
