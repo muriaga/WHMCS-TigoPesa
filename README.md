@@ -65,7 +65,7 @@ The structure of the Tigopesa merchant gateway module is as follows;
 
 
 ## Disclaimer & Copyrights
-Tigo and the Tigo Pesa Logo are registered trademarks of [MIC Tanzania Public Limited Company.](https://www.tigo.co.tz)
+Tigo and the Tigo Pesa Logo are registered trademarks of [MIC Tanzania Public Limited Company](https://www.tigo.co.tz)
 
 
 ## Requirements ##
