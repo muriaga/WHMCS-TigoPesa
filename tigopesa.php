@@ -102,8 +102,9 @@
         
         $systemurl = ($CONFIG['SystemSSLURL']) ? $CONFIG['SystemSSLURL'] . '/' : $CONFIG['SystemURL'] . '/';
     
-        $data = serialize($data);
-        $data = base64_encode($data);
+        // Use JSON instead of PHP serialize for safety and portability
+        $json = json_encode($data);
+        $encoded = base64_encode($json);
         
         $gatewayConfigs = getGatewayVariables("tigopesa");
     
@@ -111,10 +112,10 @@
     
         $processPaymentLink = $baseUrl . 'modules/gateways/tigopesa/processPayment.php';
         
-        $code = '<form method="POST" action="' . $processPaymentLink . '">
-        <input type="hidden" name="order" value="' . $data . '" />
-        <input class="btn btn-primary btn-lg" type="submit" value="Pay Now" />
-        </form>';
+        $code = '<form method="POST" action="' . htmlspecialchars($processPaymentLink, ENT_QUOTES, 'UTF-8') . '">' 
+            . '<input type="hidden" name="order" value="' . htmlspecialchars($encoded, ENT_QUOTES, 'UTF-8') . '" />' 
+            . '<input class="btn btn-primary btn-lg" type="submit" value="Pay Now" />' 
+            . '</form>';
         return $code;
     }
 
