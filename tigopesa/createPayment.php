@@ -1,15 +1,13 @@
 <?php
 
-require("../../../init.php");
-include("../../../includes/gatewayfunctions.php");
-include("../../../invoicefunctions.php");
-
-define("CLIENTAREA",true);
-define("FORCESSL",true); // Force https
+use WHMCS\Database\Capsule;
+require_once __DIR__ . '/../../../init.php';
+require_once __DIR__ . '/../../../includes/gatewayfunctions.php';
+require_once __DIR__ . '/../../../includes/invoicefunctions.php';
+require_once __DIR__ . '/storage.php';
 
 global $CONFIG;
 $gatewaymodule = "tigopesa";
-
 $gateway = getGatewayVariables($gatewaymodule);
 if (empty($gateway["type"])) {
     die ("Tigopesa Module Not Active");
@@ -99,6 +97,13 @@ if ($accessToken === false) {
     die('Invalid access token encoding');
 }
 
+// Save mapping to DB so callbacks can be verified server-side
+$saveOk = tigopesa_save_mapping($reference_id, $accessToken, (int)$invoiceid);
+if (!$saveOk) {
+    // best effort; continue but log
+    logTransaction($gateway['name'], ['reference' => $reference_id], 'failed to save mapping');
+}
+
 $payUrl = $gateway['paymentURL'] ?? '';
 if (empty($payUrl)) {
     die('Payment URL not configured');
@@ -133,4 +138,3 @@ if (empty($redirectUrl)) {
 // Redirect to tigopesa Secure Payment URL
 echo '<script type="text/javascript">window.location = ' . json_encode($redirectUrl) . ';</script>';
 exit;
-?>
