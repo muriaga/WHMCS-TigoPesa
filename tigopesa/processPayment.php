@@ -14,30 +14,49 @@ $gateway = getGatewayVariables($gatewaymodule);
 $systemurl = ($CONFIG['SystemSSLURL']) ? $CONFIG['SystemSSLURL'].'/' : $CONFIG['SystemURL'].'/';
 $baseURL = !empty($gateway['basedomainurl']) ? $gateway['basedomainurl'] : $systemurl;
 
+function tigopesa_error_and_exit($gatewayName, $message, $details = []) {
+    // Log the error for debugging in WHMCS
+    try {
+        logTransaction($gatewayName, array_merge(['message' => $message], (array)$details), 'error');
+    } catch (Exception $ex) {
+        // ignore logging errors
+    }
+
+    // Render a friendly client area page
+    $ca = new WHMCS_ClientArea();
+    $ca->setPageTitle("Payment Error");
+    $ca->addToBreadCrumb('index.php', $GLOBALS['CONFIG']['CompanyName'] ?? 'Home');
+    $ca->initPage();
+    $ca->assign('errorMessage', $message);
+    $ca->setTemplate('tigopesa_error');
+    $ca->output();
+    exit;
+}
+
 // Checks gateway module is active before accepting callback
 if (empty($gateway["type"])) {
-    die ("Tigopesa Module Not Active");
+    tigopesa_error_and_exit('tigopesa', 'Tigopesa Module Not Active');
 }
 
 // Read order POST param (base64-encoded JSON)
 $orderEncoded = $_POST['order'] ?? '';
 if (empty($orderEncoded)) {
-    die('Missing order data');
+    tigopesa_error_and_exit($gateway['name'] ?? 'tigopesa', 'Missing order data');
 }
 
 $orderJson = base64_decode($orderEncoded, true);
 if ($orderJson === false) {
-    die('Invalid order payload encoding');
+    tigopesa_error_and_exit($gateway['name'] ?? 'tigopesa', 'Invalid order payload encoding');
 }
 
 $orderDetails = json_decode($orderJson, true);
 if (!is_array($orderDetails)) {
-    die('Invalid order payload format');
+    tigopesa_error_and_exit($gateway['name'] ?? 'tigopesa', 'Invalid order payload format');
 }
 
 $invoiceid = checkCbInvoiceID($orderDetails['invoiceid'], $gateway["name"]);
 if (!$invoiceid) {
-    die ("Invalid order user");
+    tigopesa_error_and_exit($gateway['name'] ?? 'tigopesa', 'Invalid order user');
 }
 
 $api_key = $gateway['apiKey'] ?? '';
@@ -49,7 +68,7 @@ $invoiceid = $orderDetails['invoiceid'];
 
 $access_token_url = $gateway['access_token_url'] ?? '';
 if (empty($access_token_url)) {
-    die('Access token URL not configured');
+    tigopesa_error_and_exit($gateway['name'] ?? 'tigopesa', 'Access token URL not configured');
 }
 
 $data = [
@@ -70,12 +89,12 @@ $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 curl_close($ch);
 
 if ($responseRaw === false || !empty($curlErr)) {
-    die('Error requesting access token: ' . $curlErr);
+    tigopesa_error_and_exit($gateway['name'] ?? 'tigopesa', 'Error requesting access token: ' . $curlErr, ['httpCode' => $httpCode]);
 }
 
 $response = json_decode($responseRaw);
 if (!is_object($response) || empty($response->accessToken)) {
-    die('Invalid access token response');
+    tigopesa_error_and_exit($gateway['name'] ?? 'tigopesa', 'Invalid access token response', ['raw' => $responseRaw]);
 }
 
 $accessToken = $response->accessToken;
